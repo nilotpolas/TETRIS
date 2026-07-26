@@ -1,0 +1,8 @@
+pycparser
+rustworkx
+graphviz
+tabulate
+numpy
+Pillow
+display
+ipython

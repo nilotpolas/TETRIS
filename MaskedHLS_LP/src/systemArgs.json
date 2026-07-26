@@ -1,0 +1,12 @@
+{
+    "topModule": "sbox",
+    "inputFile": "/home/nilotpola/Desktop/TETRIS_final/DSE-Framework/TestFiles/share_output/output.c",
+    "generatedRtl": "Canright_sbox_d3_rand244.v",
+    "bitWidth": 1,
+    "mode": 0,
+    "inlinerOutput": "./tempFiles/inlinerOut.c",
+    "retimedOutput": "./tempFiles/retimedOut.c",
+    "postProcessorOutput": "./tempFiles/postProcessedOut.c",
+    "checkBalancing": 0,
+    "turn": 1
+}
