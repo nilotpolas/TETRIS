@@ -12,6 +12,17 @@ Three algorithms cover the main design trade-offs:
 | **MLRC** | Maximum randomness (bits) | Minimise latency (cycles) |
 | **MARC** | Maximum latency **and** maximum randomness | Minimise area (GE) |
 
+If you use TETRIS in your work please cite:
+@article{tetris2026,
+  title = {{TETRIS}: Automated Design Space Exploration of Randomness-Latency Trade-offs in Masked Hardware},
+  author = {Sarma, Nilotpola and Patidar, Tapish and Brahamanya, Nupur and Karfa, Chandan},
+  journal = {IACR Transactions on Cryptographic Hardware and Embedded Systems},
+  volume = {2026},
+  number = {4},
+  year = {2026},
+  note = {To appear},
+  publisher = {Ruhr-Universit{\"a}t Bochum}
+}
 ---
 
 ## Table of Contents
