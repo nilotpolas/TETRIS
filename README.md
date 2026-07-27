@@ -132,12 +132,14 @@ gcc --version
 ## Installation
 
 # 1. Clone / download the repository
+```bash
 git clone <repo-url>
 cd DSE-Framework
+```
 
 # 2. (Recommended) Create a virtual environment
-**Python 3.10 or later is required** — the codebase uses PEP 604 union syntax (`X | None`).
-Ubuntu 22.04+ ships with Python 3.10 by default. On Ubuntu 20.04, install Python 3.10 explicitly:
+**Python 3.10 or later is required**
+On Ubuntu 20.04, install Python 3.10 explicitly:
 
 ```bash
 sudo add-apt-repository ppa:deadsnakes/ppa
@@ -148,8 +150,9 @@ Then use `python3.10 -m venv myenv`
 ```bash
 source myenv/bin/activate        # Linux / macOS
 ```
+```
 # myenv\Scripts\activate         # Windows
-
+```
 
 
 # 3. Install Python dependencies
