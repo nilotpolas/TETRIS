@@ -144,14 +144,16 @@ sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt install python3.10 python3.10-venv
 ```
 
-Then use `python3.10 -m venv myenv` instead of `python3 -m venv myenv`.
+Then use `python3.10 -m venv myenv`
 ```bash
 source myenv/bin/activate        # Linux / macOS
+```
 # myenv\Scripts\activate         # Windows
 
 
 
 # 3. Install Python dependencies
+```
 pip install -r requirement.txt
 ```
 
