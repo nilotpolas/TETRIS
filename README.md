@@ -107,7 +107,7 @@ If you use this framework in your research, please cite:
 
 | Tool | Purpose | Install (Ubuntu/Debian) |
 |------|---------|------------------------|
-| Python 3.8+ | Runtime | `sudo apt install python3` |
+| Python 3.10+ | Runtime | `sudo apt install python3.10` |
 | Graphviz (`dot`) | AND-tree processing | `sudo apt install graphviz` |
 | Yosys | Gate-level synthesis | `sudo apt install yosys` |
 | iverilog + vvp | RTL simulation (verification) | `sudo apt install iverilog` |
@@ -131,15 +131,25 @@ gcc --version
 
 ## Installation
 
-```bash
 # 1. Clone / download the repository
 git clone <repo-url>
 cd DSE-Framework
 
 # 2. (Recommended) Create a virtual environment
-python3 -m venv myenv
+**Python 3.10 or later is required** — the codebase uses PEP 604 union syntax (`X | None`).
+Ubuntu 22.04+ ships with Python 3.10 by default. On Ubuntu 20.04, install Python 3.10 explicitly:
+
+```bash
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt install python3.10 python3.10-venv
+```
+
+Then use `python3.10 -m venv myenv` instead of `python3 -m venv myenv`.
+```bash
 source myenv/bin/activate        # Linux / macOS
 # myenv\Scripts\activate         # Windows
+
+
 
 # 3. Install Python dependencies
 pip install -r requirement.txt
